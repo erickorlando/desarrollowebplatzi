@@ -34,6 +34,12 @@ input:focus, textarea:focus {
 .contenedor {
     width: 800px;
     margin: auto;
+    position: relative;
+}
+
+.background {
+    background-image: url('../images/background.png');
+    background-size: cover;
 }
 
 .button {
@@ -80,8 +86,6 @@ input:focus, textarea:focus {
 }
 
 .portada {
-    background-image: url('../images/background.png');
-    background-size: cover;
     color: white;
     padding: 20px;
     height: 500px;
@@ -221,4 +225,8 @@ input:focus, textarea:focus {
 
 .sexo{
     margin-top: 10px;
+}
+
+.tabla {
+    margin: 50px 0;
 }
