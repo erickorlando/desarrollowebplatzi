@@ -38,6 +38,7 @@ body {
 
 .portada {
     background-image: url('../images/background.png');
+    background-size: cover;
     color: white;
     padding: 20px;
 }
@@ -58,8 +59,21 @@ body {
     margin-left: 30px;
 }
 
+.menu li:before{
+    content: '∘';
+    font-size: 50px;
+    line-height: 20px;
+    color: white;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
 .logotipo {
     display: inline-block;
+    margin-left: 0;
 }
 
 .contenedor {
