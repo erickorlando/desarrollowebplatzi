@@ -210,6 +210,7 @@ input:focus, textarea:focus {
 }
 .col2 {
     align-items: flex-start;
+    transform: transla
 }
 .col2 .button {
     margin-top: 15px;
